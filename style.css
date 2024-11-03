@@ -1,0 +1,161 @@
+* {
+padding: 0%;
+margin: 0;
+box-sizing: 0;
+}
+
+/*CABEÇÁRIO*/
+header {
+  height: 150px;
+  background-color: #E1944D;
+  color: antiquewhite;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: x-large;
+
+}
+
+body {
+  background-color: #FFE0C3;
+}
+
+/*GRID SOBRE MIM*/
+
+.grid-container {
+  display: grid;
+  gap: 20px;
+  padding: 10px;
+  color: #faebd7;
+
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 100px;
+    font-size: 30px;
+    background-color: #7A3B00;
+    color: antiquewhite;
+  }
+  
+  .item1 {
+    grid-column: 1;
+    grid-row: 1 / span 4;
+    background-color: #A46B37;
+
+  }
+
+  .item5 {
+    grid-column: 2 / span 4;
+    grid-row: 1 ;
+    }
+
+  .item4 {
+    grid-column: 2 / span 4;
+    grid-row: 2 / span 4;
+    padding: 50px;
+    background-color: #FFCD83;
+    color: #8B3F14;
+  }
+
+/*GRID MEUS ESTUDOS*/
+
+.ESTUDOS {
+  display: grid;
+  gap: 10px;
+  color: #faebd7;
+  padding: 10px;
+}
+
+.estudo {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 100px;
+  font-size: 30px;
+}
+
+.estudo1 {
+  grid-column: 1;
+  grid-row: 1/ span 2;
+  background-color: #8B3F14;
+    color: antiquewhite;
+}
+
+.contato {
+  grid-column: 2;
+  grid-row: 1;
+  background-color: #AA7206;
+  color: antiquewhite;
+}
+
+.habilidade{
+  grid-column: 3;
+  grid-row: 1 / span 2;
+  background-color: #FF7A00;
+    color: antiquewhite;
+}
+
+.trabalho{
+  grid-column: 2;
+  grid-row: 2;
+  background-color: #E1944D;
+  color: antiquewhite;
+}
+
+/*GRID REFERENCIAS*/
+
+.REFERENCIAS {
+  display: grid;
+  gap: 10px;
+  color: #faebd7;
+  padding: 10px;
+}
+
+.referencia{
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 100px;
+  font-size: 30px;
+}
+
+.tecnicas{
+  grid-column: 1 / span 2;
+  grid-row: 1;
+  background-color: #CD6B11;
+    color: antiquewhite;
+}
+
+.estagio{
+  grid-column: 3;
+  grid-row: 1 / span 2;
+  background-color: #8B3F14;
+    color: antiquewhite;
+}
+
+.ref{
+  grid-column: 1;
+  grid-row: 2;
+  background-color: #AA6906;
+    color: antiquewhite;
+}
+
+
+.certificado{
+  grid-column:2;
+  grid-row: 2;
+  background-color: #7A3B00;
+    color: antiquewhite;
+}
+/*RODAPÉ*/
+
+footer {
+  background-color: #E1944D;
+  color: antiquewhite;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px;
+  font-size: x-large;
+}
+
